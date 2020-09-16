@@ -1,0 +1,9 @@
+【图层设置步骤】
+*1、图层分配（sheet_alloc()）
+ 2、图层图案内存分配（memman_alloc_4k()）
+*3、分配的内存填入结构体（sheet_setbuf()）
+ 4、内存写入图案
+*5、图层在屏幕的位置设定（sheet_slide()）
+*6、图层高度设定（sheet_updown()）
+*7、屏幕刷新（sheet_refreshsub()）
+注：*在sheet.c中
